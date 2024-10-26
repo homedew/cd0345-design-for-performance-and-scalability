@@ -1,0 +1,22 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,13194.380000000001,158332.56,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Increased_Cost Estimate,US East (N. Virginia),,Amazon EC2 ,0,242.944,2915.33,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t3.large), Pricing strategy (On-Demand Utilization: 730 Hours/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost Estimate,US East (N. Virginia),,Application Load Balancer,0,52.85,634.20,USD,,Number of Application Load Balancers (2)
+Increased_Cost Estimate,US East (N. Virginia),,S3 Standard,0,2.39,28.68,USD,,"S3 Standard storage (100 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (10000), GET, SELECT, and all other requests from S3 Standard (100000)"
+Increased_Cost Estimate,US East (N. Virginia),,Data Transfer,0,20.48,245.76,USD,,"DT Inbound: Internet (0 TB per month), DT Outbound: All other regions (1 TB per month)"
+Increased_Cost Estimate,US East (N. Virginia),,Amazon CloudFront,0,88.04,1056.48,USD,,"Data transfer out to internet (1 TB per month), Number of requests (HTTPS) (1000000 per month)"
+Increased_Cost Estimate,US East (N. Virginia),,Amazon RDS for SQL server,0,4163.76,49965.12,USD,,"Storage amount (2 TB), Nodes (2), Instance type (db.m4.xlarge), Utilization (On-Demand only) (730 Hours/Month), Deployment option (Single-AZ), License (License included), Database edition (Enterprise), Pricing strategy (OnDemand), Storage for each RDS instance (General Purpose SSD (gp2)), Additional backup storage (2 TB)"
+Increased_Cost Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,78.93,947.16,USD,,Number of NAT Gateways (1)
+Increased_Cost Estimate,US East (Ohio),,Amazon RDS for SQL server,0,6954.72,83456.64,USD,,"Storage amount (100 GB), Nodes (2), Instance type (db.m4.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), License (License included), Database edition (Enterprise), Pricing strategy (OnDemand), Storage for each RDS instance (General Purpose SSD (gp2))"
+Increased_Cost Estimate,US East (Ohio),,Amazon EC2 ,0,1590.272,19083.26,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (t4g.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: All other regions (2 TB per month), DT Outbound: US East (N. Virginia) (2 TB per month), DT Intra-Region: (0 TB per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
